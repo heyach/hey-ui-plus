@@ -6,6 +6,15 @@
   "main": "dist/my-component-library.umd.js",
   "module": "dist/my-component-library.es.js",
   "style": "dist/style.css",
+  "exports": {
+    ".": {
+      "import": "./dist/hey-ui-plus.es.js",
+      "require": "./dist/hey-ui-plus.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
