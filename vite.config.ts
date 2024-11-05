@@ -36,9 +36,9 @@ export default defineConfig({
     },
     build: {
         lib: {
-            entry: resolve(__dirname, './src/index.ts'),
-            name: 'MyComponentLibrary',
-            fileName: (format) => `my-component-library.${format}.js`,
+            entry: 'src/index.ts',
+            name: 'MyVue3Components',
+            fileName: (format) => `my-vue3-components.${format}.js`,
         },
         rollupOptions: {
             external: ['vue'],

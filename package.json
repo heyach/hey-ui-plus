@@ -1,17 +1,10 @@
 {
-  "name": "hey-ui-plus",
+  "name": "my-vue3-components",
   "private": false,
   "version": "1.0.0",
   "description": "通用UI组件库",
-  "main": "dist/my-component-library.umd.js",
-  "module": "dist/my-component-library.es.js",
-  "style": "dist/style.css",
-  "exports": {
-    ".": {
-      "import": "./dist/hey-ui-plus.es.js",
-      "require": "./dist/hey-ui-plus.umd.js"
-    }
-  },
+  "main": "dist/my-vue3-components.umd.js", 
+  "module": "dist/my-vue3-components.es.js", 
   "files": [
     "dist"
   ],
