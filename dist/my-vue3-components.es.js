@@ -1,4 +1,4 @@
-import { ref, openBlock, createElementBlock, toDisplayString, resolveComponent, createVNode, withCtx, createTextVNode, createElementVNode } from "vue";
+import { defineComponent, ref, openBlock, createElementBlock, toDisplayString, resolveComponent, createVNode, withCtx, createTextVNode, createElementVNode } from "vue";
 const _sfc_main$2 = {
   __name: "comA",
   props: {
@@ -66,7 +66,7 @@ const components = [
   _sfc_main$1,
   _sfc_main
 ];
-const install = (Vue) => components.forEach((component) => Vue.component(component.__name, component));
+const install = (Vue) => components.forEach((component) => Vue.component(component.name || component.__name, component));
 var index = {
   install
 };

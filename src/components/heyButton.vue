@@ -8,7 +8,7 @@
   </template>
   
 <script setup>
-import { ref } from 'vue'
+import { ref, defineComponent } from 'vue'
 defineComponent({
   name: 'heyButton'
 });

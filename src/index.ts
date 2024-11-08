@@ -9,7 +9,7 @@ const components = [
 ];
 
 const install = (Vue) =>
-  components.forEach((component) => Vue.component(component.__name, component));
+  components.forEach((component) => Vue.component(component.name || component.__name, component));
 
 export default {
   install,
