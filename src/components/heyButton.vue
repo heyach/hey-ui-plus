@@ -2,8 +2,8 @@
     <h1 class="my-class">
       <el-button>{{ msg }}</el-button>
       <div class="aaa">123</div>
-      <div class="aaa">456</div>
-      <img src="../assets/logo.png" alt="logo" />
+      <div class="aaa">4526</div>
+      <!-- <img src="../assets/logo.png" alt="logo" /> -->
     </h1>
   </template>
   
@@ -22,7 +22,7 @@ const count = ref(0)
 .my-class {
     color: red;
     .aaa {
-      color: blue;
+      color: green;
     }
     .logo {
       width: 100px;
