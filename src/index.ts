@@ -1,9 +1,11 @@
 import comA from './components/comA.vue';
 import comB from './components/comB.vue';
+import heyButton from './components/heyButton.vue';
 
 const components = [
   comA,
-  comB
+  comB,
+  heyButton
 ];
 
 const install = (Vue) =>
@@ -14,5 +16,6 @@ export default {
 };
 export {
   comA,
-  comB
+  comB,
+  heyButton
 }
