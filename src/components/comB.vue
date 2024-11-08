@@ -5,6 +5,9 @@
 <script setup>
 import { ref } from 'vue'
 
+defineComponent({
+  name: 'comB'
+});
 defineProps({
   msg: String
 })

@@ -2,12 +2,16 @@
     <h1 class="my-class">
       <el-button>{{ msg }}</el-button>
       <div class="aaa">123</div>
+      <div class="aaa">456</div>
+      <img src="../assets/logo.png" alt="logo" />
     </h1>
   </template>
   
 <script setup>
 import { ref } from 'vue'
-
+defineComponent({
+  name: 'heyButton'
+});
 defineProps({
   msg: String
 })
@@ -19,6 +23,10 @@ const count = ref(0)
     color: red;
     .aaa {
       color: blue;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
     }
 }
 </style>

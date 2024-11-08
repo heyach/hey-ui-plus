@@ -5,6 +5,9 @@
 <script setup>
 import { ref } from 'vue'
 
+defineComponent({
+  name: 'comA'
+});
 defineProps({
   msg: String
 })
