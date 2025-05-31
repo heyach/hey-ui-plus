@@ -1,10 +1,8 @@
 import comA from './components/comA.vue';
-import comB from './components/comB.vue';
 import heyButton from './components/heyButton.vue';
 
 const components = [
   comA,
-  comB,
   heyButton
 ];
 
@@ -16,6 +14,5 @@ export default {
 };
 export {
   comA,
-  comB,
   heyButton
 }

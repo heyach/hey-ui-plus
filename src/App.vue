@@ -1,12 +1,14 @@
 <template>
     <div id="app">
-        <div class="container">222
+        <div class="container">
+            <comA msg="comA"></comA>
             <heyButton :msg="'dadsad'"></heyButton>
         </div>
     </div>
 </template>
 <script lang="ts" setup>
 import { onMounted } from 'vue';
+import comA from '@/components/comA.vue';
 import heyButton from '@/components/heyButton.vue';
 onMounted(() => {
 });

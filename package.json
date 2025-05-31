@@ -6,7 +6,8 @@
   "main": "dist/my-vue3-components.umd.js",
   "module": "dist/my-vue3-components.es.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "dev": "vite",
