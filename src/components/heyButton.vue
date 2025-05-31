@@ -1,7 +1,7 @@
 <template>
     <h1 class="my-class">
       <el-button>{{ msg }}</el-button>
-      <img src="../assets/logo.png" alt="logo" />
+      <!-- <img src="../assets/logo.png" alt="logo" /> -->
     </h1>
   </template>
   
